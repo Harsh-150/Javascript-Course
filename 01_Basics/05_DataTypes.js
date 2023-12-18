@@ -28,3 +28,8 @@ const func = function(){
 }
 
 console.log(typeof null);
+
+/*
+Stack memeory is used in primitive data types
+heap memory is used in non-primitive data types
+*/
