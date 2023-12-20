@@ -13,3 +13,17 @@ console.log(arr2);
 
 arr.unshift(101);//element added at start
 console.log(arr);
+arr.shift();//removes first element
+console.log(arr);
+
+console.log(typeof arr.includes(89));
+console.log(arr.includes(89));
+
+console.log(arr.indexOf(true));
+console.log(arr.includes(789));
+
+const newarr = arr.join();
+console.log(typeof newarr);
+console.log(arr);
+console.log(newarr);
+
