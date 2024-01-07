@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        /*
+        spread operator: ... allows an iterable such as an array or string to be expanded into seperate elements
+        (basically unpacks the elements)
+        */
+
+        let numbers = [1,2,3,4,5]
+        let maximum = Math.max(...numbers)
+        let minimum = Math.max(...numbers)
+
+        console.log(maximum)
+        console.log(minimum)
+
+
+        let str = "username"
+        let letters = [...str]
+        console.log(typeof letters)
+        console.log(letters)
+
+        let fruits = ["apple","mango","banana"]
+        let vegetables = ["potato","onion","carrot"]
+        let newfruits = [...fruits]
+        let total = [...fruits,...vegetables]
+        console.log(newfruits)
+        console.log(total)
+
+
+    </script>
+</body>
+</html>
