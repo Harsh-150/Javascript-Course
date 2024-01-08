@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // Example 1
+
+        class Parent{
+            hello(){
+                console.log("hello")
+            }
+        }
+
+        class Child extends Parent{// inheritance
+            play(){
+                console.log("child plays")
+            }
+        }
+
+        let obj = new Child()
+
+        console.log(obj)
+        console.log(obj.hello())
+
+        // Example 2
+
+        class Person{
+
+            constructor(){
+                this.species = "homo sapiens"
+            }
+            eat(){
+                console.log("eats")
+            }
+            sleep(){
+                console.log("sleeps")
+            }
+            work(){
+                console.log("do nothing")
+            }
+        }
+
+        class engineer extends Person{
+            constructor(branch){
+                super() // to invoke parent class constructor
+                this.branch = branch
+            }
+            work(){
+                console.log("work")
+            }
+        }
+
+        let harshObj = new engineer()
+        console.log(harshObj)
+        console.log(harshObj.eat())
+        // if child and parent have same method, child's method will be used(Method overriding) 
+
+        let engObj = new engineer("computer science")
+        
+        console.log(engObj)
+        
+
+
+    </script>
+</body>
+</html>
