@@ -81,3 +81,16 @@ console.log(courseinstructor);
 
 const {coursefee: fee} = course
 console.log(fee)
+
+// Destructuring in an object
+const person = {
+    age: 19,
+    Name: "Harsh",
+    city: "New Delhi"
+}
+
+const {age, Name, hobby} = person
+console.log(age)
+console.log(Name)
+console.log(hobby)
+// the name of the variables should match with the keys of the objects

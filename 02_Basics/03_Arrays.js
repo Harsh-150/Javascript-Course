@@ -32,3 +32,19 @@ let score1 = 100;
 let score2 = 200;
 let score3 = 300;
 console.log(Array.of(score1, score2, score3));
+
+
+// Destructuring in arrays
+const nums = [1,2,3,4]
+
+const [a,b,c,d] = [1,2,3]
+
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
+
+const [p,q,r] = [1,2,[3,4,5,6,7]]
+console.log(p)
+console.log(q)
+console.log(r)
