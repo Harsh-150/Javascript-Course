@@ -27,3 +27,8 @@ console.log(typeof newarr);
 console.log(arr);
 console.log(newarr);
 
+chr_arr = ['a','d','e','2','t','9','0']
+console.log(chr_arr.join())
+console.log(chr_arr.join(''))
+console.log(chr_arr.join('%'))
+console.log(chr_arr.toString())
