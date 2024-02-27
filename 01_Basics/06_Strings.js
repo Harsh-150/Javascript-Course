@@ -29,3 +29,20 @@ const url = "https://harsh.com/harsh%20gupta";
 console.log(url.replace('%20','-'));
 console.log(url.includes('harsh'));
 console.log(url.includes('ayush'));
+
+let str = "asdfghjkl"
+str[5] = 'z'
+console.log(str) // strings are immutable
+
+
+let firstName = "Aakriti"
+let lastName = "Dadhich"
+let fullName = firstName.concat(lastName)
+console.log(fullName)
+
+let myName = "HarshGupta"
+console.log(myName)
+console.log(myName.slice(2))
+console.log(myName.slice(2,5))
+console.log(myName.slice(-5))
+console.log(myName.slice(-5,-1))
