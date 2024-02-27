@@ -63,3 +63,8 @@ function CalculateCartPrice2(val1, val2, ...num1)/*rest operator*/{
     return num1
 }
 console.log(CalculateCartPrice2(200,230,500,1000))
+
+function func(){
+    console.log(arguments)
+}
+func(1,2,3,4,5,6,7)

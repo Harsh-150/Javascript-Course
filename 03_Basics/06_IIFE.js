@@ -9,3 +9,8 @@
 ((name)=>{
     console.log(`DB connected 2 ${name}`);
 })('Aakriti');
+
+
+(function(){
+    console.log("Hello Aakriti")
+})();

@@ -33,3 +33,15 @@
     }
  }
 // console.log(username)  ->  outside scope 
+
+{
+   var x = 20
+   console.log(x)
+}
+   console.log(x) // var is not block scoped
+
+{
+   const y = 190
+   console.log(y)
+}
+   console.log(y) // let and const are block scoped
