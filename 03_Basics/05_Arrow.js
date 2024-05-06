@@ -21,7 +21,7 @@ function fun(){
     console.log(this.username) // ---> undefined
 }
 fun()
-
+// this is not used with function
 
  const fun2 = function(){
     let username = "Harsh"
@@ -45,5 +45,7 @@ const addTwoNumbers2 = (a,b) => a+b
 
 const addTwoNumbers3 = (a,b) => (a+b)
 
+// returning an object
 const returnObject = (a,b) => ({username: "Aakriti"})
+
 
